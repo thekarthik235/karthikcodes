@@ -1,0 +1,99 @@
+@media screen and (max-width: 480px ) and (orientation: portrait) {
+    #home-section {
+        height: 100%;
+    }
+    
+    #header-navigation {
+        padding-top: 10px;  
+    }
+     
+    #navigation-list, #responsive-btn {
+        display: none;
+    }
+
+    #navigation-list.open {
+        display: flex;
+        flex-direction: column; 
+        background-color: white;
+        position: fixed;
+        padding-top: 0px;
+        left: 0px;
+        top: 50px;
+        height: auto;
+        width: 100%;
+    }
+
+/* -------------------------------------------  1 home section -------------------------   */
+
+    #home-section {
+        padding: 10px;
+    }
+
+/* -------------------------------------------  2 about section -------------------------   */
+
+    #about-section {
+        height: auto;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #about-section p {
+        line-height: 30px;
+        font-size: large;
+    }
+
+/* -------------------------------------------  3 skills section -------------------------   */
+
+     #skills-section {
+        height: auto;
+        padding-top: 50px;
+     }
+
+     #skills-section h2 {
+        padding-bottom: 30px;
+     }
+
+     #skills-section .skills-list-section {
+        flex-direction: column;
+        font-weight: bolder;
+        gap: 5px;
+        line-height: 25px;
+     }
+     
+ /* -------------------------------------------  4 projects section -------------------------   */
+
+     #projects-section {
+        height: auto;
+     }
+
+     #projects-section .row{
+        gap: 25px;
+    }
+
+    #projects-section .hire-section {
+        padding: 50px;
+    }
+
+ /* -------------------------------------------  5 contact section -------------------------   */
+
+    #contact-section {
+        padding-top: 10px;
+        padding-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+} 
+
+/* ------------------------------------------- laptop screen -------------------------   */
+
+
+@media screen and (min-width: 500px) {
+
+    #hamburger-icon  {
+        display: none;
+    }
+
+} 
