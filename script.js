@@ -5,3 +5,5 @@ toggle.addEventListener('click', () => {
     navigation.classList.toggle('open');
 }); 
 
+const welcome = document.getElementById("hero_section");
+
