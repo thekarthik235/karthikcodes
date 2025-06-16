@@ -1,35 +1,35 @@
 @media screen and (max-width: 480px ) and (orientation: portrait) {
     #home-section {
-        height: 100%;
+        height: 100%; 
     }
     
     #header-navigation {
-        padding-top: 10px;  
+        padding-top: 10px; 
     }
-     
+    
     #navigation-list, #responsive-btn {
         display: none;
     }
 
     #navigation-list.open {
-        display: flex;
+        display: flex; 
         flex-direction: column; 
-        background-color: white;
-        position: fixed;
-        padding-top: 0px;
-        left: 0px;
-        top: 50px;
-        height: auto;
-        width: 100%;
+        background-color: white; 
+        position: fixed; 
+        padding-top: 0px; 
+        left: 0px; 
+        top: 50px; 
+        height: auto; 
+        width: 100%; 
     }
 
-/* -------------------------------------------  1 home section -------------------------   */
+/* ------------------------------------------- 1 home section ----------------------------------------------  */
 
     #home-section {
         padding: 10px;
     }
 
-/* -------------------------------------------  2 about section -------------------------   */
+/* -------------------------------------------  2 about section --------------------------------------------  */
 
     #about-section {
         height: auto;
@@ -42,6 +42,11 @@
     #about-section p {
         line-height: 30px;
         font-size: large;
+    }
+
+    #about-section p {
+        text-align: center;
+        padding-left: 0px;
     }
 
 /* -------------------------------------------  3 skills section -------------------------   */

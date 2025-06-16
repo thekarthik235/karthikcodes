@@ -96,17 +96,24 @@ nav a:hover {
 #about-section {
     height: 100vh;
     width: 100%;
-    text-align: center;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
+#about-section h2 {
+    text-align: center;
+}
+
 #about-section p{
     font-size: large;
     font-weight: 500;
-    padding-top: 15px;   
+    padding-top: 15px;
     line-height: 45px; 
+}
+
+#about-section p,#about-section a{ 
+    padding-left: 80px;   
 }
 
 /* -------------------------------------------  2 skills section -------------------------   */
@@ -201,5 +208,9 @@ nav a:hover {
     justify-content: space-around;
     padding-top : 100px;
     background-color: #201f1f;
+    color: white;
+}
+
+#contact-section a {
     color: white;
 }
