@@ -29,6 +29,10 @@
         padding: 10px;
     }
 
+    .hero-section {
+        padding-top: 200px;
+    }
+
 /* -------------------------------------------  2 about section --------------------------------------------  */
 
     #about-section {
@@ -42,31 +46,40 @@
     #about-section p {
         line-height: 30px;
         font-size: large;
-    }
-
-    #about-section p {
         text-align: center;
         padding-left: 0px;
+    }
+
+    #about-section a {
+        text-align: center;
     }
 
 /* -------------------------------------------  3 skills section -------------------------   */
 
      #skills-section {
         height: auto;
-        padding-top: 50px;
+        padding-top: 30px;
      }
 
      #skills-section h2 {
-        padding-bottom: 30px;
+        padding-bottom: 15px;
      }
 
      #skills-section .skills-list-section {
         flex-direction: column;
         font-weight: bolder;
         gap: 5px;
-        line-height: 25px;
+        line-height: 20px;
      }
      
+     .skills-list-section ul li { 
+        font-weight: 500;
+     }
+
+     .skills-list-section ul {
+        padding: 0px;
+     }
+
  /* -------------------------------------------  4 projects section -------------------------   */
 
      #projects-section {
