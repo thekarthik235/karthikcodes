@@ -67,13 +67,8 @@
 
      #skills-section .skills-list-section {
         flex-direction: column;
-        font-weight: bolder;
         gap: 5px;
         line-height: 20px;
-     }
-     
-     .skills-list-section ul li { 
-        font-weight: 500;
      }
 
      .skills-list-section ul {
