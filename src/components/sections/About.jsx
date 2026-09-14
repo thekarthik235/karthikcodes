@@ -19,7 +19,7 @@ export default function About() {
         >
           <div className="aspect-[4/5] bg-ink-panel border border-ink-line flex items-center justify-center">
             <span className="font-mono text-xs tracking-widest2 uppercase text-bone-muted">
-              <img src="src\assets\portrait.png" alt="Golden words of LT"/>
+              <img src="portrait.png" alt="Golden words of LT"/>
              </span>
           </div>
         </motion.div>
